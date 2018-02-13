@@ -1,0 +1,21 @@
+{
+  "name": "parcel-sample",
+  "description": "parcel preact sample",
+  "repository": "https://github.com/Takamichi-tsutsumi/parcel-sample.git",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-preact": "^1.1.0",
+    "parcel-bundler": "^1.5.1",
+    "typescript": "^2.7.1"
+  },
+  "dependencies": {
+    "preact": "^8.2.7"
+  }
+}
